@@ -1,0 +1,197 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Press Start 2P', cursive;
+    color: #ffffff;
+}
+
+#wrapper {
+    margin: auto 50px;
+}
+
+.container {
+    width: 80%;
+    margin: 10px auto;
+    padding: 10px;
+    color: #ffffff;
+    text-align: center;
+}
+
+#form {
+    display: block;
+    justify-content: center;
+}
+
+#form p {
+    display: block;
+    margin: 15px auto;
+}
+
+.input_in {
+    margin: 10px 0px;
+}
+
+.neon-input {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    padding: 10px;
+    border: none;
+    border-bottom: 2px solid #fff;
+    background-color: transparent;
+    color: #fff;
+    outline: none;
+    position: relative;
+}
+
+label::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    height: 2px;
+    width: 0;
+    background-color: #0f0;
+    transition: width 0.3s ease-in-out;
+}
+
+h1 {
+    font-family: 'Press Start 2P', cursive;
+    text-align: center;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(0, 0, 0);
+}
+
+
+#container {
+    text-align: center;
+}
+
+#letterContainer {
+    font-size: 36px;
+    margin: 15px auto;
+}
+
+#letterContainer span {
+    display: inline-block;
+    align: center;
+    transition: transform 0.5s ease-in-out;
+    color: #0f0;
+    letter-spacing: -30px;
+}
+
+/*Neon input*/
+.neon-input {}
+
+.neon-input::placeholder {
+    color: #aaa;
+    font-family: 'Press Start 2P', cursive;
+    text-align: center;
+    font-size: auto;
+}
+
+.neon-input:focus {
+    border-color: #0f0;
+}
+
+.neon-input:focus::placeholder {
+    color: #0f0;
+}
+
+.neon-input:focus+label::after {
+    width: 100%;
+}
+
+#gender-radio-1 {
+    margin-top: 15px;
+}
+
+input[type="radio"]:checked+label {
+    color: #0f0;
+}
+
+/*neon_button*/
+.neon-button {
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    padding: 10px 20px;
+    border: none;
+    background-color: transparent;
+    color: #f4f4f4;
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+    margin: 15px;
+    border: solid 2px #00ff00;
+
+}
+
+.neon-button::before {
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
+    background: linear-gradient(45deg, #00ff00, #33ff33, #00ff00);
+    z-index: -1;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.neon-button:hover::before {
+    opacity: 1;
+    color: #00ff00;
+}
+
+.hidden {
+    opacity: 0;
+}
+
+#checkboxes {
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+#gender {
+    display: flex;
+    justify-content: center;
+    margin: 0px auto;
+}
+
+.custom-control-input {
+    display: inline;
+    margin-bottom: 20px;
+    width: 45px;
+    height: 20px;
+}
+
+#hobies {
+    text-align: center;
+    margin: 10px auto;
+}
+
+
+.hidden {
+    display: none;
+}
+
+#registrationForm h2 {
+    color: #00ff00;
+
+}

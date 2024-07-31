@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <title>Сайт о кибербезопасности</title>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div id="wrapper">
+        <div class="container">
+            <div id="letterContainer">
+                <span>V</span>
+                <span>i</span>
+                <span>t</span>
+                <span>a</span>
+                <span>l</span>
+                <span>i</span>
+                <span>i</span>
+                <span> </span>
+                was here
+            </div>
+        </div>
+        <p>Добро пожаловать на наш сайт о тестировании! Мы стремимся обеспечить качество ваших приложенеий и защитить
+            вас от киберугроз в цифровом мире. Мы предлагаем обучающие материалы, советы по тестированию, написанию
+            фреймворков автоматизации и инструменты для защиты вашей онлайн активности.</p>
+        <input type="text" class="input_in">
+        <button class="ok">OK</button>
+        <div class="output">Your Message here</div>
+        <button class="neon-button" id="registrationButton">Registration</button>
+        <div id="registrationForm" class="hidden">
+            <h2>Registration</h2>
+            <form action="#" method="post">
+                <label for="name">Name:</label>
+                <input class="neon-input" type="text" id="name" name="name" required placeholder="Name"><br>
+                <label for="email">Email:</label>
+                <input class="neon-input" type="email" id="email" name="email" required placeholder="Email here"><br>
+                <label for="password">Password:</label>
+                <input class="neon-input" type="password" id="password" name="password" required><br>
+                <button class="neon-button" type="submit"
+                    onclick="alert('all data have been stolen by international hackers group')">OK</button>
+            </form>
+            <div>
+                <button class="neon-button" onclick="fallLetters()">Submit</button>
+            </div>
+            <div id="pixelContainer">
+                <button id="pixelButton" class="neon-button" onclick="returnLettersback()">noise</button>
+            </div>
+            <script src="scripts/script.js"></script>
+        </div>
+    </div>
+</body>
+
+</html>
